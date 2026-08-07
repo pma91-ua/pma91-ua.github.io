@@ -51,7 +51,7 @@ El PDF original contiene DNI, dirección exacta y fecha de nacimiento. **Ninguno
 
 ## CV descargable
 
-Se genera una versión del PDF sin DNI, dirección exacta ni fecha de nacimiento (mantiene nombre, ciudad, formación, experiencia, skills, proyectos), servida como archivo estático (`/cv-pablo-mira-amante.pdf`) y enlazada desde el botón de descarga del hero.
+Se hara uso del curriculum disponible en la carpeta raiz del proyecto y se servirá como archivo estático (`/cv-pablo-mira-amante.pdf`) y enlazada desde el botón de descarga del hero.
 
 ## Fuera de alcance
 
