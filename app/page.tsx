@@ -1,3 +1,23 @@
+import { Header } from "@/components/Header";
+import { Hero } from "@/components/Hero";
+import { Projects } from "@/components/Projects";
+import { Experience } from "@/components/Experience";
+import { Education } from "@/components/Education";
+import { Skills } from "@/components/Skills";
+import { Contact } from "@/components/Contact";
+
 export default function Home() {
-  return <div className="p-8 text-2xl font-bold text-emerald-600">CV en construcción</div>;
+  return (
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <Projects />
+        <Experience />
+        <Education />
+        <Skills />
+        <Contact />
+      </main>
+    </>
+  );
 }
