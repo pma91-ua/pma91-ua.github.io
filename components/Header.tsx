@@ -15,7 +15,7 @@ export function Header() {
             <a
               key={item.href}
               href={item.href}
-              className="hover:text-emerald-600 dark:hover:text-emerald-400"
+              className="hover:text-emerald-700 dark:hover:text-emerald-400"
             >
               {item.label}
             </a>

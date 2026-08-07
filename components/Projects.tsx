@@ -28,7 +28,7 @@ function ProjectCard({ project }: { project: Project }) {
               href={link.url}
               target="_blank"
               rel="noreferrer"
-              className="text-emerald-600 underline hover:text-emerald-700 dark:text-emerald-400"
+              className="text-emerald-700 underline hover:text-emerald-800 dark:text-emerald-400"
             >
               {link.label}
             </a>

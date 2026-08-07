@@ -19,7 +19,7 @@ export function Hero() {
         priority
       />
       <div>
-        <p className="text-sm uppercase tracking-wide text-emerald-600 dark:text-emerald-400">
+        <p className="text-sm uppercase tracking-wide text-emerald-700 dark:text-emerald-400">
           {content.hero.greeting}
         </p>
         <h1 className="mt-1 text-3xl font-bold sm:text-4xl">{content.hero.name}</h1>
@@ -27,7 +27,7 @@ export function Hero() {
         <a
           href="/cv-pablo-mira-amante.pdf"
           download
-          className="mt-6 inline-block rounded-full bg-emerald-600 px-5 py-2 text-sm font-medium text-white hover:bg-emerald-700"
+          className="mt-6 inline-block rounded-full bg-emerald-700 px-5 py-2 text-sm font-medium text-white hover:bg-emerald-800"
         >
           {content.hero.downloadCv}
         </a>

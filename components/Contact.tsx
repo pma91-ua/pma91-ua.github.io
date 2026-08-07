@@ -10,13 +10,13 @@ export function Contact() {
       <div className="mt-6 flex flex-col items-center gap-3 text-sm sm:flex-row sm:justify-center sm:gap-8">
         <a
           href={`mailto:${content.contact.email}`}
-          className="text-emerald-600 underline hover:text-emerald-700 dark:text-emerald-400"
+          className="text-emerald-700 underline hover:text-emerald-800 dark:text-emerald-400"
         >
           {content.contact.email}
         </a>
         <a
-          href={`tel:${content.contact.phone.replace(/\s+/g, "")}`}
-          className="text-emerald-600 underline hover:text-emerald-700 dark:text-emerald-400"
+          href={`tel:+34${content.contact.phone.replace(/\s+/g, "")}`}
+          className="text-emerald-700 underline hover:text-emerald-800 dark:text-emerald-400"
         >
           {content.contact.phone}
         </a>
@@ -25,7 +25,7 @@ export function Contact() {
           href={content.contact.githubUrl}
           target="_blank"
           rel="noreferrer"
-          className="text-emerald-600 underline hover:text-emerald-700 dark:text-emerald-400"
+          className="text-emerald-700 underline hover:text-emerald-800 dark:text-emerald-400"
         >
           {content.contact.githubLabel}
         </a>
