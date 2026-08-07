@@ -87,8 +87,8 @@
             "description": "Desarrollo de un buscador completo con indexador y tokenizador propios, con el objetivo de hacerlo lo más eficiente posible.",
             "tags": ["Recuperación de información", "Eficiencia"],
             "links": [
-              { "label": "Tokenizador e indexador", "url": "https://github.com/pma91-ua/Tokenizador-eIndexador_EI" },
-              { "label": "Buscador", "url": "https://github.com/pma91-ua/BuscadorExplotacionInformacion" }
+              { "label": "Tokenizador e indexador", "url": "https://github.com/pma91-ua/Tokenizador-e-Indexador_EI" },
+              { "label": "Buscador", "url": "https://github.com/pma91-ua/Buscador-ExplotacionInformacion" }
             ]
           }
         ]

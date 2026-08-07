@@ -87,8 +87,8 @@
             "description": "Full search engine built with a custom indexer and tokenizer, aimed at making it as efficient as possible.",
             "tags": ["Information retrieval", "Efficiency"],
             "links": [
-              { "label": "Tokenizer & indexer", "url": "https://github.com/pma91-ua/Tokenizador-eIndexador_EI" },
-              { "label": "Search engine", "url": "https://github.com/pma91-ua/BuscadorExplotacionInformacion" }
+              { "label": "Tokenizer & indexer", "url": "https://github.com/pma91-ua/Tokenizador-e-Indexador_EI" },
+              { "label": "Search engine", "url": "https://github.com/pma91-ua/Buscador-ExplotacionInformacion" }
             ]
           }
         ]
