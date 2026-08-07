@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "title": "Pablo Mira Amante — Currículum",
+    "languageName": "Español"
+  },
+  "nav": [
+    { "label": "Sobre mí", "href": "#about" },
+    { "label": "Proyectos", "href": "#projects" },
+    { "label": "Experiencia", "href": "#experience" },
+    { "label": "Formación", "href": "#education" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Contacto", "href": "#contact" }
+  ],
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Pablo Mira Amante",
+    "bio": "Estudiante de Ingeniería Informática (162 créditos superados) con experiencia práctica en desarrollo de videojuegos, sistemas distribuidos y despliegue de IA en local. Combino una base técnica sólida en C/C++, Python y Java con curiosidad por explorar cada capa del stack, desde Assembly hasta interfaces de usuario. Usuario avanzado de Linux y entusiasta de las herramientas de IA aplicadas al desarrollo.",
+    "downloadCv": "Descargar CV (PDF)",
+    "photoAlt": "Foto de Pablo Mira Amante"
+  },
+  "projects": {
+    "heading": "Proyectos",
+    "groups": [
+      {
+        "groupTitle": "Game Jams",
+        "items": [
+          {
+            "title": "Chromatophobia",
+            "description": "Videojuego desarrollado durante una Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Jugar en itch.io", "url": "https://huguito2004.itch.io/chromatophobia" }]
+          },
+          {
+            "title": "Chess Unbound",
+            "description": "Videojuego desarrollado durante una Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Jugar en itch.io", "url": "https://sokamonta.itch.io/chess-unbound" }]
+          },
+          {
+            "title": "A Gloomy Manor",
+            "description": "Videojuego desarrollado durante una Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Jugar en itch.io", "url": "https://sokamonta.itch.io/a-gloomy-manor" }]
+          }
+        ]
+      },
+      {
+        "groupTitle": "Proyectos personales",
+        "items": [
+          {
+            "title": "Simulador de ecosistema",
+            "description": "Videojuego en desarrollo que simula un ecosistema aplicando animación procedural, biodiversidad y toma de decisiones de los agentes mediante el algoritmo NEAT.",
+            "tags": ["NEAT", "Animación procedural", "En curso"],
+            "links": []
+          },
+          {
+            "title": "Modpack de Minecraft",
+            "description": "Modpack completo y personalizado enfocado en optimizar la generación de chunks en el servidor (alojado en mi propio ordenador) para mejorar el rendimiento, con shaders personalizados basados en uno ya existente.",
+            "tags": ["Java", "Optimización", "Self-hosted"],
+            "links": [{ "label": "Ver en GitHub", "url": "https://github.com/pma91-ua/Modpack-proyect/" }]
+          },
+          {
+            "title": "Hosting local de IA open source",
+            "description": "Despliegue de modelos de IA open source en un ordenador propio usando Ollama, Odysseus y Docker, con pruebas de optimización y rendimiento en un equipo con 12 GB de VRAM y 32 GB de RAM, con el objetivo de tener acceso desde el exterior.",
+            "tags": ["Ollama", "Docker", "Self-hosted AI"],
+            "links": []
+          }
+        ]
+      },
+      {
+        "groupTitle": "Proyectos de universidad",
+        "items": [
+          {
+            "title": "Plataforma de apuntes con IA",
+            "description": "Página web estilo Wolah para subir apuntes de universidad, con un visor de IA integrado para generar tests, resúmenes y esquemas automáticamente.",
+            "tags": ["IA", "Web", "Trabajo en equipo"],
+            "links": [{ "label": "Ver en GitHub", "url": "https://github.com/pma91-ua/DSS-2025-G03-E04" }]
+          },
+          {
+            "title": "Sistema distribuido de carga de coches eléctricos",
+            "description": "Sistema distribuido basado en Kafka que simula peticiones para dar servicio a cargadores de coches eléctricos.",
+            "tags": ["Kafka", "Sistemas distribuidos"],
+            "links": [{ "label": "Ver en GitHub", "url": "https://github.com/pma91-ua/PracSD-EVCharging" }]
+          },
+          {
+            "title": "Tokenizador, indexador y buscador",
+            "description": "Desarrollo de un buscador completo con indexador y tokenizador propios, con el objetivo de hacerlo lo más eficiente posible.",
+            "tags": ["Recuperación de información", "Eficiencia"],
+            "links": [
+              { "label": "Tokenizador e indexador", "url": "https://github.com/pma91-ua/Tokenizador-eIndexador_EI" },
+              { "label": "Buscador", "url": "https://github.com/pma91-ua/BuscadorExplotacionInformacion" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "heading": "Experiencia",
+    "entries": [
+      {
+        "period": "Verano",
+        "role": "Peón agrícola",
+        "place": "Parcelas agrícolas familiares",
+        "description": "Recogida de fruta y hortalizas."
+      },
+      {
+        "period": "Verano",
+        "role": "Aprendiz",
+        "place": "Empresa familiar de diseño y fabricación de equipos electrónicos",
+        "description": "Tareas básicas de soldadura, montaje y programación."
+      },
+      {
+        "period": "Verano",
+        "role": "Aprendiz",
+        "place": "Empresa familiar de informática",
+        "description": "Venta, montaje y desmontaje de ordenadores."
+      }
+    ]
+  },
+  "education": {
+    "heading": "Formación",
+    "entries": [
+      {
+        "title": "Grado en Ingeniería Informática",
+        "detail": "Cursando — 162 créditos superados. Matrícula del curso 2026-2027 ya realizada."
+      },
+      {
+        "title": "Bachillerato de Ciencias y Tecnología",
+        "detail": "Titulación académica completada."
+      },
+      {
+        "title": "Educación profesional de música — Tuba tenor",
+        "detail": "Quinto curso."
+      },
+      {
+        "title": "Carnet de conducir B",
+        "detail": "Obtenido."
+      },
+      {
+        "title": "Inglés",
+        "detail": "Pendiente de examen del C1 (conversación y escritura)."
+      },
+      {
+        "title": "Valenciano",
+        "detail": "Nivel alto (conversación y escritura). Hablante nativo."
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Skills",
+    "categories": [
+      {
+        "category": "Sistemas operativos",
+        "items": [
+          { "name": "Windows", "level": "Avanzado" },
+          { "name": "Linux", "level": "Avanzado" },
+          { "name": "Unix BSD", "level": "Intermedio" }
+        ]
+      },
+      {
+        "category": "Lenguajes de programación",
+        "items": [
+          { "name": "C / C++", "level": "Avanzado" },
+          { "name": "Python", "level": "Avanzado" },
+          { "name": "GDScript", "level": "Avanzado" },
+          { "name": "Java", "level": "Intermedio" },
+          { "name": "Assembly", "level": "Intermedio" },
+          { "name": "SQL", "level": "Intermedio" }
+        ]
+      },
+      {
+        "category": "IA y herramientas",
+        "items": [
+          { "name": "Claude Code", "level": "Avanzado" },
+          { "name": "Ollama / hosting local de IA", "level": "Avanzado" },
+          { "name": "Docker", "level": "Intermedio" }
+        ]
+      },
+      {
+        "category": "Motores de videojuegos",
+        "items": [
+          { "name": "Godot", "level": "Avanzado" },
+          { "name": "Unity", "level": "Intermedio" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Contacto",
+    "email": "pmiramante@outlook.es",
+    "phone": "645 64 36 70",
+    "city": "Alicante",
+    "githubUrl": "https://github.com/pma91-ua",
+    "githubLabel": "GitHub"
+  }
+}

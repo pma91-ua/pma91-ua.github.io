@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "title": "Pablo Mira Amante — Resume",
+    "languageName": "English"
+  },
+  "nav": [
+    { "label": "About", "href": "#about" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Education", "href": "#education" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Pablo Mira Amante",
+    "bio": "Computer Engineering student (162 credits completed) with hands-on experience in game development, distributed systems, and self-hosted AI deployment. I combine a solid technical foundation in C/C++, Python, and Java with curiosity for every layer of the stack, from Assembly to user interfaces. Advanced Linux user and enthusiast of AI tooling applied to software development.",
+    "downloadCv": "Download CV (PDF)",
+    "photoAlt": "Photo of Pablo Mira Amante"
+  },
+  "projects": {
+    "heading": "Projects",
+    "groups": [
+      {
+        "groupTitle": "Game Jams",
+        "items": [
+          {
+            "title": "Chromatophobia",
+            "description": "Game built during a Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Play on itch.io", "url": "https://huguito2004.itch.io/chromatophobia" }]
+          },
+          {
+            "title": "Chess Unbound",
+            "description": "Game built during a Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Play on itch.io", "url": "https://sokamonta.itch.io/chess-unbound" }]
+          },
+          {
+            "title": "A Gloomy Manor",
+            "description": "Game built during a Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Play on itch.io", "url": "https://sokamonta.itch.io/a-gloomy-manor" }]
+          }
+        ]
+      },
+      {
+        "groupTitle": "Personal projects",
+        "items": [
+          {
+            "title": "Ecosystem simulator",
+            "description": "Game in progress simulating an ecosystem with procedural animation, biodiversity, and agent decision-making via the NEAT algorithm.",
+            "tags": ["NEAT", "Procedural animation", "In progress"],
+            "links": []
+          },
+          {
+            "title": "Minecraft modpack",
+            "description": "Full custom modpack focused on optimizing server-side chunk generation (self-hosted on my own computer) for better performance, with custom shaders based on an existing one.",
+            "tags": ["Java", "Optimization", "Self-hosted"],
+            "links": [{ "label": "View on GitHub", "url": "https://github.com/pma91-ua/Modpack-proyect/" }]
+          },
+          {
+            "title": "Local open-source AI hosting",
+            "description": "Deployment of open-source AI models on a personal machine using Ollama, Odysseus, and Docker, benchmarking performance and optimization on a 12 GB VRAM / 32 GB RAM setup, with the goal of exposing access externally.",
+            "tags": ["Ollama", "Docker", "Self-hosted AI"],
+            "links": []
+          }
+        ]
+      },
+      {
+        "groupTitle": "University projects",
+        "items": [
+          {
+            "title": "AI-powered notes platform",
+            "description": "Wolah-style website for uploading university notes, with an integrated AI viewer that automatically generates tests, summaries, and outlines.",
+            "tags": ["AI", "Web", "Team project"],
+            "links": [{ "label": "View on GitHub", "url": "https://github.com/pma91-ua/DSS-2025-G03-E04" }]
+          },
+          {
+            "title": "EV charging distributed system",
+            "description": "Kafka-based distributed system simulating requests to serve electric vehicle charging stations.",
+            "tags": ["Kafka", "Distributed systems"],
+            "links": [{ "label": "View on GitHub", "url": "https://github.com/pma91-ua/PracSD-EVCharging" }]
+          },
+          {
+            "title": "Tokenizer, indexer, and search engine",
+            "description": "Full search engine built with a custom indexer and tokenizer, aimed at making it as efficient as possible.",
+            "tags": ["Information retrieval", "Efficiency"],
+            "links": [
+              { "label": "Tokenizer & indexer", "url": "https://github.com/pma91-ua/Tokenizador-eIndexador_EI" },
+              { "label": "Search engine", "url": "https://github.com/pma91-ua/BuscadorExplotacionInformacion" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "heading": "Experience",
+    "entries": [
+      {
+        "period": "Summer",
+        "role": "Farm laborer",
+        "place": "Family agricultural land",
+        "description": "Fruit and vegetable harvesting."
+      },
+      {
+        "period": "Summer",
+        "role": "Apprentice",
+        "place": "Family business — electronics design & manufacturing",
+        "description": "Basic soldering, assembly, and programming tasks."
+      },
+      {
+        "period": "Summer",
+        "role": "Apprentice",
+        "place": "Family IT business",
+        "description": "Computer sales, assembly, and disassembly."
+      }
+    ]
+  },
+  "education": {
+    "heading": "Education",
+    "entries": [
+      {
+        "title": "B.Sc. in Computer Engineering",
+        "detail": "In progress — 162 credits completed. Already enrolled for the 2026-2027 academic year."
+      },
+      {
+        "title": "Science & Technology Baccalaureate",
+        "detail": "Completed."
+      },
+      {
+        "title": "Professional Music Education — Tenor Tuba",
+        "detail": "5th year."
+      },
+      {
+        "title": "Driving license (Category B)",
+        "detail": "Obtained."
+      },
+      {
+        "title": "English",
+        "detail": "C1 exam pending (conversation and writing)."
+      },
+      {
+        "title": "Valencian (Catalan)",
+        "detail": "Advanced level (conversation and writing). Native speaker."
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Skills",
+    "categories": [
+      {
+        "category": "Operating systems",
+        "items": [
+          { "name": "Windows", "level": "Advanced" },
+          { "name": "Linux", "level": "Advanced" },
+          { "name": "Unix BSD", "level": "Intermediate" }
+        ]
+      },
+      {
+        "category": "Programming languages",
+        "items": [
+          { "name": "C / C++", "level": "Advanced" },
+          { "name": "Python", "level": "Advanced" },
+          { "name": "GDScript", "level": "Advanced" },
+          { "name": "Java", "level": "Intermediate" },
+          { "name": "Assembly", "level": "Intermediate" },
+          { "name": "SQL", "level": "Intermediate" }
+        ]
+      },
+      {
+        "category": "AI & tooling",
+        "items": [
+          { "name": "Claude Code", "level": "Advanced" },
+          { "name": "Ollama / local AI hosting", "level": "Advanced" },
+          { "name": "Docker", "level": "Intermediate" }
+        ]
+      },
+      {
+        "category": "Game engines",
+        "items": [
+          { "name": "Godot", "level": "Advanced" },
+          { "name": "Unity", "level": "Intermediate" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "email": "pmiramante@outlook.es",
+    "phone": "645 64 36 70",
+    "city": "Alicante, Spain",
+    "githubUrl": "https://github.com/pma91-ua",
+    "githubLabel": "GitHub"
+  }
+}
