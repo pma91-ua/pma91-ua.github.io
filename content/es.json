@@ -100,12 +100,6 @@
     "entries": [
       {
         "period": "Verano",
-        "role": "Peón agrícola",
-        "place": "Parcelas agrícolas familiares",
-        "description": "Recogida de fruta y hortalizas."
-      },
-      {
-        "period": "Verano",
         "role": "Aprendiz",
         "place": "Empresa familiar de diseño y fabricación de equipos electrónicos",
         "description": "Tareas básicas de soldadura, montaje y programación."
@@ -164,7 +158,7 @@
           { "name": "C / C++", "level": "Avanzado" },
           { "name": "Python", "level": "Avanzado" },
           { "name": "GDScript", "level": "Avanzado" },
-          { "name": "Java", "level": "Intermedio" },
+          { "name": "Java", "level": "Avanzado" },
           { "name": "Assembly", "level": "Intermedio" },
           { "name": "SQL", "level": "Intermedio" }
         ]
@@ -173,8 +167,11 @@
         "category": "IA y herramientas",
         "items": [
           { "name": "Claude Code", "level": "Avanzado" },
+          { "name": "Antigravity", "level": "Intermedio" },
+          { "name": "GitHub Copilot", "level": "Intermedio" },
           { "name": "Ollama / hosting local de IA", "level": "Avanzado" },
-          { "name": "Docker", "level": "Intermedio" }
+          { "name": "Docker", "level": "Avanzado" },
+          { "name": "VM VirtualVox", "level": "Avanzado"}
         ]
       },
       {

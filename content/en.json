@@ -100,12 +100,6 @@
     "entries": [
       {
         "period": "Summer",
-        "role": "Farm laborer",
-        "place": "Family agricultural land",
-        "description": "Fruit and vegetable harvesting."
-      },
-      {
-        "period": "Summer",
         "role": "Apprentice",
         "place": "Family business — electronics design & manufacturing",
         "description": "Basic soldering, assembly, and programming tasks."
@@ -142,7 +136,7 @@
         "detail": "C1 exam pending (conversation and writing)."
       },
       {
-        "title": "Valencian (Catalan)",
+        "title": "Valencian",
         "detail": "Advanced level (conversation and writing). Native speaker."
       }
     ]
@@ -164,7 +158,7 @@
           { "name": "C / C++", "level": "Advanced" },
           { "name": "Python", "level": "Advanced" },
           { "name": "GDScript", "level": "Advanced" },
-          { "name": "Java", "level": "Intermediate" },
+          { "name": "Java", "level": "Advanced" },
           { "name": "Assembly", "level": "Intermediate" },
           { "name": "SQL", "level": "Intermediate" }
         ]
@@ -173,8 +167,11 @@
         "category": "AI & tooling",
         "items": [
           { "name": "Claude Code", "level": "Advanced" },
+          { "name": "Antigravity", "level": "Intermediate" },
+          { "name": "GitHub Copilot", "level": "Intermediate" },
           { "name": "Ollama / local AI hosting", "level": "Advanced" },
-          { "name": "Docker", "level": "Intermediate" }
+          { "name": "Docker", "level": "Advanced" },
+          { "name": "VM VirtualVox", "level": "Advanced"}
         ]
       },
       {
