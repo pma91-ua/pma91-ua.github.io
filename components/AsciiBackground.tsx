@@ -22,6 +22,9 @@ export function AsciiBackground({ src }: { src: string }) {
     let cols = 0;
     let rows = 0;
     let sourceData: Uint8ClampedArray | null = null;
+    let chars: string[] = [];
+
+    const randomChar = () => HEX_CHARS[Math.floor(Math.random() * HEX_CHARS.length)];
 
     const image = new window.Image();
     image.src = src;
@@ -59,6 +62,7 @@ export function AsciiBackground({ src }: { src: string }) {
       }
       sampleCtx.drawImage(image, sx, sy, sw, sh, 0, 0, cols, rows);
       sourceData = sampleCtx.getImageData(0, 0, cols, rows).data;
+      chars = Array.from({ length: cols * rows }, randomChar);
     };
 
     let raf = 0;
@@ -84,7 +88,8 @@ export function AsciiBackground({ src }: { src: string }) {
 
         for (let row = 0; row < rows; row++) {
           for (let col = 0; col < cols; col++) {
-            const idx = (row * cols + col) * 4;
+            const cellIndex = row * cols + col;
+            const idx = cellIndex * 4;
             const luminance =
               (0.2126 * sourceData[idx] + 0.7152 * sourceData[idx + 1] + 0.0722 * sourceData[idx + 2]) / 255;
 
@@ -93,9 +98,11 @@ export function AsciiBackground({ src }: { src: string }) {
             const alpha = Math.min(MAX_ALPHA, (0.25 + luminance * 0.35) * pulse * MAX_ALPHA * 2);
             if (alpha < 0.015) continue;
 
-            const char = HEX_CHARS[Math.min(15, Math.floor(luminance * 16))];
+            // Occasionally reroll a cell's glyph so flat-luminance areas don't freeze on one character.
+            if (Math.random() < 0.01) chars[cellIndex] = randomChar();
+
             ctx.fillStyle = `rgba(${glyphRgb}, ${alpha})`;
-            ctx.fillText(char, (col + 0.5) * CELL_SIZE, (row + 0.5) * CELL_SIZE);
+            ctx.fillText(chars[cellIndex], (col + 0.5) * CELL_SIZE, (row + 0.5) * CELL_SIZE);
           }
         }
       }
