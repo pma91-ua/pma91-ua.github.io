@@ -14,36 +14,13 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Pablo Mira Amante",
-    "bio": "Computer Engineering student (162 credits completed) with hands-on experience in game development, distributed systems, and self-hosted AI deployment. I combine a solid technical foundation in C/C++, Python, and Java with curiosity for every layer of the stack, from Assembly to user interfaces. Advanced Linux user and enthusiast of AI tooling applied to software development.",
+    "bio": "Computer Engineering student (162 credits completed) with a particular interest in distributed systems and scalable architectures, complemented by hands-on experience in game development and self-hosted AI deployment. Solid technical foundation in C/C++, Python, and Java, with curiosity for every layer of the stack, from Assembly to user interfaces. Advanced Linux user and enthusiast of AI tooling applied to software development.",
     "downloadCv": "Download CV (PDF)",
     "photoAlt": "Photo of Pablo Mira Amante"
   },
   "projects": {
     "heading": "Projects",
     "groups": [
-      {
-        "groupTitle": "Game Jams",
-        "items": [
-          {
-            "title": "Chromatophobia",
-            "description": "Game built during a Game Jam.",
-            "tags": ["Godot", "Game Jam"],
-            "links": [{ "label": "Play on itch.io", "url": "https://huguito2004.itch.io/chromatophobia" }]
-          },
-          {
-            "title": "Chess Unbound",
-            "description": "Game built during a Game Jam.",
-            "tags": ["Godot", "Game Jam"],
-            "links": [{ "label": "Play on itch.io", "url": "https://sokamonta.itch.io/chess-unbound" }]
-          },
-          {
-            "title": "A Gloomy Manor",
-            "description": "Game built during a Game Jam.",
-            "tags": ["Godot", "Game Jam"],
-            "links": [{ "label": "Play on itch.io", "url": "https://sokamonta.itch.io/a-gloomy-manor" }]
-          }
-        ]
-      },
       {
         "groupTitle": "Personal projects",
         "items": [
@@ -90,6 +67,29 @@
               { "label": "Tokenizer & indexer", "url": "https://github.com/pma91-ua/Tokenizador-e-Indexador_EI" },
               { "label": "Search engine", "url": "https://github.com/pma91-ua/Buscador-ExplotacionInformacion" }
             ]
+          }
+        ]
+      },
+      {
+        "groupTitle": "Game Jams",
+        "items": [
+          {
+            "title": "Chromatophobia",
+            "description": "Game built during a Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Play on itch.io", "url": "https://huguito2004.itch.io/chromatophobia" }]
+          },
+          {
+            "title": "Chess Unbound",
+            "description": "Game built during a Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Play on itch.io", "url": "https://sokamonta.itch.io/chess-unbound" }]
+          },
+          {
+            "title": "A Gloomy Manor",
+            "description": "Game built during a Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Play on itch.io", "url": "https://sokamonta.itch.io/a-gloomy-manor" }]
           }
         ]
       }
@@ -166,12 +166,11 @@
       {
         "category": "AI & tooling",
         "items": [
-          { "name": "Claude Code", "level": "Advanced" },
-          { "name": "Antigravity", "level": "Intermediate" },
-          { "name": "GitHub Copilot", "level": "Intermediate" },
-          { "name": "Ollama / local AI hosting", "level": "Advanced" },
+          { "name": "Claude Code / Antigravity / GitHub Copilot", "level": "Advanced" },
+          { "name": "Git", "level": "Advanced" },
           { "name": "Docker", "level": "Advanced" },
-          { "name": "VM VirtualVox", "level": "Advanced"}
+          { "name": "Ollama / local AI hosting", "level": "Advanced" },
+          { "name": "VM VirtualBox", "level": "Advanced" }
         ]
       },
       {

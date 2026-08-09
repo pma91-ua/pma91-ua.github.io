@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/lib/theme-context";
 import { LanguageProvider } from "@/lib/language-context";
+import { AsciiBackground } from "@/components/AsciiBackground";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -34,7 +35,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         className={`${inter.className} bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-50`}
       >
         <ThemeProvider>
-          <LanguageProvider>{children}</LanguageProvider>
+          <LanguageProvider>
+            <AsciiBackground src="/profile-photo.jpg" />
+            {children}
+          </LanguageProvider>
         </ThemeProvider>
       </body>
     </html>

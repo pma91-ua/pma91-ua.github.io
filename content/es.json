@@ -14,36 +14,13 @@
   "hero": {
     "greeting": "Hola, soy",
     "name": "Pablo Mira Amante",
-    "bio": "Estudiante de Ingeniería Informática (162 créditos superados) con experiencia práctica en desarrollo de videojuegos, sistemas distribuidos y despliegue de IA en local. Combino una base técnica sólida en C/C++, Python y Java con curiosidad por explorar cada capa del stack, desde Assembly hasta interfaces de usuario. Usuario avanzado de Linux y entusiasta de las herramientas de IA aplicadas al desarrollo.",
+    "bio": "Estudiante de Ingeniería Informática (162 créditos superados) con un interés particular en sistemas distribuidos y arquitecturas escalables, complementado con experiencia en desarrollo de videojuegos y despliegue de IA en local. Base técnica sólida en C/C++, Python y Java, con curiosidad por cada capa del stack, desde Assembly hasta interfaces de usuario. Usuario avanzado de Linux y entusiasta de las herramientas de IA aplicadas al desarrollo.",
     "downloadCv": "Descargar CV (PDF)",
     "photoAlt": "Foto de Pablo Mira Amante"
   },
   "projects": {
     "heading": "Proyectos",
     "groups": [
-      {
-        "groupTitle": "Game Jams",
-        "items": [
-          {
-            "title": "Chromatophobia",
-            "description": "Videojuego desarrollado durante una Game Jam.",
-            "tags": ["Godot", "Game Jam"],
-            "links": [{ "label": "Jugar en itch.io", "url": "https://huguito2004.itch.io/chromatophobia" }]
-          },
-          {
-            "title": "Chess Unbound",
-            "description": "Videojuego desarrollado durante una Game Jam.",
-            "tags": ["Godot", "Game Jam"],
-            "links": [{ "label": "Jugar en itch.io", "url": "https://sokamonta.itch.io/chess-unbound" }]
-          },
-          {
-            "title": "A Gloomy Manor",
-            "description": "Videojuego desarrollado durante una Game Jam.",
-            "tags": ["Godot", "Game Jam"],
-            "links": [{ "label": "Jugar en itch.io", "url": "https://sokamonta.itch.io/a-gloomy-manor" }]
-          }
-        ]
-      },
       {
         "groupTitle": "Proyectos personales",
         "items": [
@@ -90,6 +67,29 @@
               { "label": "Tokenizador e indexador", "url": "https://github.com/pma91-ua/Tokenizador-e-Indexador_EI" },
               { "label": "Buscador", "url": "https://github.com/pma91-ua/Buscador-ExplotacionInformacion" }
             ]
+          }
+        ]
+      },
+      {
+        "groupTitle": "Game Jams",
+        "items": [
+          {
+            "title": "Chromatophobia",
+            "description": "Videojuego desarrollado durante una Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Jugar en itch.io", "url": "https://huguito2004.itch.io/chromatophobia" }]
+          },
+          {
+            "title": "Chess Unbound",
+            "description": "Videojuego desarrollado durante una Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Jugar en itch.io", "url": "https://sokamonta.itch.io/chess-unbound" }]
+          },
+          {
+            "title": "A Gloomy Manor",
+            "description": "Videojuego desarrollado durante una Game Jam.",
+            "tags": ["Godot", "Game Jam"],
+            "links": [{ "label": "Jugar en itch.io", "url": "https://sokamonta.itch.io/a-gloomy-manor" }]
           }
         ]
       }
@@ -164,14 +164,13 @@
         ]
       },
       {
-        "category": "IA y herramientas",
+        "category": "AI & tooling",
         "items": [
-          { "name": "Claude Code", "level": "Avanzado" },
-          { "name": "Antigravity", "level": "Intermedio" },
-          { "name": "GitHub Copilot", "level": "Intermedio" },
-          { "name": "Ollama / hosting local de IA", "level": "Avanzado" },
+          { "name": "Claude Code / Antigravity / GitHub Copilot", "level": "Avanzado" },
+          { "name": "Git", "level": "Avanzado" },
           { "name": "Docker", "level": "Avanzado" },
-          { "name": "VM VirtualVox", "level": "Avanzado"}
+          { "name": "Ollama / local AI hosting", "level": "Avanzado" },
+          { "name": "VM VirtualBox", "level": "Avanzado" }
         ]
       },
       {
