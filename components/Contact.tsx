@@ -20,7 +20,6 @@ export function Contact() {
         >
           {content.contact.phone}
         </a>
-        <span className="text-neutral-600 dark:text-neutral-300">{content.contact.city}</span>
         <a
           href={content.contact.githubUrl}
           target="_blank"
@@ -29,6 +28,7 @@ export function Contact() {
         >
           {content.contact.githubLabel}
         </a>
+        <span className="text-neutral-600 dark:text-neutral-300">{content.contact.city}</span>
       </div>
     </section>
   );
